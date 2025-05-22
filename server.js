@@ -11,7 +11,7 @@ app.post('/carrier_service', (req, res) => {
     description: "Tracked standard shipping",
     service_code: "CUCKOO_STD",
     currency: "AUD",
-    total_price: 1000, // cents → $10.00
+    total_price: 1000,
     min_delivery_date: new Date(Date.now() + 3 * 24 * 60 * 60 * 1000).toISOString(),
     max_delivery_date: new Date(Date.now() + 7 * 24 * 60 * 60 * 1000).toISOString()
   };
